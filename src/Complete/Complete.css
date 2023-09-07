@@ -1,0 +1,79 @@
+.main {
+  background-color: #151b28;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.items {
+  background: #030b1b;
+  margin: 10px;
+  width: 300px;
+  height: auto;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-justify: auto;
+  text-align: center;
+  padding: 5px 5px;
+  border: none;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #282c34;
+}
+
+.eachItem {
+  background: #ffffff;
+  margin: 30px 0px 30px 0px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.but {
+  background: #a4a4ff73;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.but:hover {
+  cursor: pointer;
+  background: #2e2e9573;
+}
+
+.btn-input {
+  background: #d2d5ff73;
+  margin: 30px;
+  width: 300px;
+  height: auto;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-justify: auto;
+  text-align: center;
+  padding: 20px 25px;
+  border: none;
+  font-size: 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease all;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.292);
+}
+
+.btn-input:hover {
+  background: #08108073;
+}
